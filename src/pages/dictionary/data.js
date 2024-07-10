@@ -1,5 +1,5 @@
-export const data = {
-  0: {
+export const data = [
+  {
     en: {
       translation: "to love",
       explanation: "To have affection or liking for someone or something.",
@@ -17,4 +17,4 @@ export const data = {
       examples: ["Seni sevaman.", "Oilamni sevaman.", "Mamlakatni sevaman."],
     },
   },
-};
+];

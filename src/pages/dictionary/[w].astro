@@ -13,7 +13,7 @@ export function getStaticPaths() {
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 
 const { w } = Astro.params;
-let dat = data.w;
+let dat = data[w];
 /*
     en: {
       translation: "to love",
