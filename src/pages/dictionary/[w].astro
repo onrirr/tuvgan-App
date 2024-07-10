@@ -73,10 +73,10 @@ let dat = data[w];
 <StarlightPage frontmatter={{ title: w || "" }}>
   <ul>
     {
-      dat.map((el, key) => (
+      Object.keys(dat).map((el) => (
         <li>
-          <div class="container" data-pagefind-filter={key}>
-            {el.map((el2) => (
+          <div class="container" data-pagefind-filter={el}>
+            {dat.el.map((el2) => (
               <div>
                 <strong>{el2.translation}</strong>
                 <div class="container2">
