@@ -16,9 +16,9 @@ export default defineConfig({
         }),
       ],
       title: "Tuvgan Sözlük",
-      defaultLocale: "root",
+      defaultLocale: "tr",
       locales: {
-        root: {
+        tr: {
           label: "Türkçe",
           direction: "ltr",
           lang: "tr",
@@ -27,6 +27,11 @@ export default defineConfig({
           label: "English",
           direction: "ltr",
           lang: "en",
+        },
+        uz: {
+          label: "O'zbekcha",
+          direction: "ltr",
+          lang: "uz",
         },
       },
       customCss: ["./src/styles/global.css"],

@@ -10,13 +10,19 @@
     "node_modules": true,
     "package-lock.json": true,
     ".astro": true,
-    ".github/workflows": true
+    ".github/workflows": true,
+    ".github": true,
+    "src/content/config.ts": true,
+    "src/content/i18n": true
   },
   "hide-files.files": [
     ".vscode",
     "node_modules",
     "package-lock.json",
     ".astro",
-    ".github/workflows"
+    ".github/workflows",
+    ".github",
+    "src/content/config.ts",
+    "src/content/i18n"
   ]
 }
